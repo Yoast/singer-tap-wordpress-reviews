@@ -1,0 +1,94 @@
+{
+	"selected": true,
+	"type": [
+		"null",
+		"object"
+	],
+	"additionalProperties": false,
+	"properties": {
+		"author": {
+			"type": "string"
+		},
+		"comments": {
+			"type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                "author": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "comment": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "date": {
+                    "type": [
+                        "null",
+                        "string"
+                    ],
+                    "format": "date-time"
+                }
+            }
+            }
+        },
+        "date": {
+			"type": "string",
+            "format": "date-time"
+		},
+        "participants": {
+			"type": "number",
+            "format": "integer"
+		},
+        "path": {
+            "type": "string"
+        },
+        "plugin": {
+            "type": "string"
+        },
+        "rating": {
+            "type": "number",
+            "format": "integer"
+        },
+        "replies": {
+            "type": "number",
+            "format": "integer"
+        },
+        "support": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "support_comment": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "tags": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": "string",
+                "additionalProperties": false
+            }
+        },
+        "text": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        }
+    }
+}
