@@ -85,7 +85,10 @@
             }
         },
         "text": {
-            "type": "string"
+            "type": [
+                "null",
+                "string"
+            ]
         },
         "title": {
             "type": "string"
